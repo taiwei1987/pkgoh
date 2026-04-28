@@ -9,9 +9,9 @@ Install it, type `pkgoh` or the short alias `pkg`, and enter a keyboard-first TU
 ## Preview
 
 ```text
-┌ pkgoh ───────────────────────────────────────────────────────────────────────────┐
-│ Source: All  Sort: Size ↓  Selected: 2  Reclaim: 1.4GB  Total: 38             │
-│ Modules: [Homebrew npm pnpm cargo pip uv mas]  Search: hidden                 │
+┌ pkgoh ──────────────────────────────────────────────────────────────────────────┐
+│ Source: All  Sort: Size ↓  Selected: 2  Reclaim: 1.4GB  Total: 38               │
+│ Modules: [Homebrew npm pnpm cargo pip uv mas]  Search: hidden                   │
 ├───────────────────────────────────┬─────────────────────────────────────────────┤
 │ #  Name         Source  Ver  Size │ Details                                     │
 │ 1. hiddenbar    Homebrew ... 12KB │ Name: hiddenbar                             │
@@ -19,14 +19,14 @@ Install it, type `pkgoh` or the short alias `pkg`, and enter a keyboard-first TU
 │ 3. pnpm         pnpm     ... 31MB │ Removal Advice: Keep Recommended            │
 │ ...                               │ Reason: other global tools may depend on it │
 ├───────────────────────────────────┴─────────────────────────────────────────────┤
-│ Action                                                                      │
-│ Delete Confirmation                                                         │
-│ Delete 2 selected item(s), estimated reclaim 1.4GB                          │
-│ Press Delete again or Enter to run, Esc to cancel.                          │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ ↑↓ Move  / Search  Number Jump  Space Select  Delete Remove  C Clean Cache │
-│ R Refresh  S Sort Size  Esc Quit                                            │
-└──────────────────────────────────────────────────────────────────────────────┘
+│ Action                                                                          │
+│ Delete Confirmation                                                             │
+│ Delete 2 selected item(s), estimated reclaim 1.4GB                              │
+│ Press Delete again or Enter to run, Esc to cancel.                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ ↑↓ Move  / Search  Number Jump  Space Select  Delete Remove  C Clean Cache      │
+│ R Refresh  S Sort Size  Esc Quit                                                │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Why pkgoh
