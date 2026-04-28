@@ -1,0 +1,12 @@
+[sources]
+brew = true
+npm = true
+pnpm = true
+cargo = true
+pip = true
+uv = true
+mas = true
+
+[highlight]
+large_size_mb = 500
+unused_days = 90

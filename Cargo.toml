@@ -1,0 +1,33 @@
+[package]
+name = "pkgoh"
+version = "0.1.0"
+edition = "2021"
+description = "A terminal asset manager for macOS package ecosystems"
+license = "MIT"
+repository = "https://github.com/taiwei1987/pkgoh"
+homepage = "https://github.com/taiwei1987/pkgoh"
+readme = "README.md"
+keywords = ["macos", "tui", "homebrew", "package-manager", "cli"]
+categories = ["command-line-utilities"]
+
+[lib]
+name = "pkgoh"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pkgoh"
+path = "src/bin/pkgoh.rs"
+
+[[bin]]
+name = "pkg"
+path = "src/bin/pkg.rs"
+
+[dependencies]
+anyhow = "1"
+chrono = { version = "0.4", features = ["clock", "serde"] }
+crossterm = "0.28"
+dirs = "6"
+ratatui = "0.29"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
